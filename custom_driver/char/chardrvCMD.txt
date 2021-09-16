@@ -1,0 +1,15 @@
+dd if=pcd_m.c of=/dev/pcd-1 count=1
+
+This cmd is used to write the content of input file to output file(here output file is our device file) and "count=1" means write operaton is happening for only one time.
+
+
+dd if=/dev/pcd-1 of=file.txt count=1
+
+here pcd-1 or pcd-2 etc is our device
+
+echo "hello abhishek" > /dev/pcd
+
+this cmd is also used for writing string to our device. Our device is "pcd" or "pcd-1" or "pcd-2" etc
+
+cat /dev/pcd or pcd-1 or pcd-2 etc.....
+this cmd is used to read the device contents
