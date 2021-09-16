@@ -1,0 +1,3 @@
+# linux_device_driver/custom_driver/
+This Repository contains linux device driver for different type of device....
+char folder contains char driver for single pseudo buffer device and multiple pseudo buffer devices
